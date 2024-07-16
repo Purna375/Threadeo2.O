@@ -1,0 +1,33 @@
+.chatbot-container {
+    width: 90%; /* Set width to 90% of the viewport width */
+    max-width: 900px; /* Set a maximum width of 500px */
+    height: 80vh; /* Set height to 80% of the viewport height */
+    max-height: 900px; /* Set a maximum height of 500px */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.answer-container {
+    max-height: calc(100% - 150px); /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.answer-container pre {
+    white-space: pre-wrap; /* Allow text wrapping within pre element */
+    overflow-wrap: break-word; /* Break long words */
+}
+
+
+.chatbot-container h1{
+    text-align: center;
+    font-style: Italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.gradient-textI {
+    background-image: linear-gradient(to right, #ff00cc, #3333ff); /* Define the gradient colors */
+    -webkit-background-clip: text; /* Apply background clip to text */
+    background-clip: text; /* Apply background clip to text */
+    color: transparent; /* Set text color to transparent */
+}
